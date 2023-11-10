@@ -1,5 +1,5 @@
 // double num
 void main() {
   var n = 3.14159265359;
-  print('double.parse((3.14159265359)).toStringAsFixed(n)');
+  print('Double: ${n.toStringAsFixed(2)}\n');
 }
