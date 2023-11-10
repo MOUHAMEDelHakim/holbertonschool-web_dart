@@ -1,4 +1,4 @@
 // Print with dart
-
- print('Hello Holberton!' "\n");
-
+void main() {
+  print('Hello Holberton!\n');
+}
