@@ -1,5 +1,5 @@
 // print number.
 void main() {
   var n = 98;
-  print('Battery street\n');
+  print( ${n} 'Battery street\n');
 }
