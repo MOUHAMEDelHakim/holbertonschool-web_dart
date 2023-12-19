@@ -1,7 +1,16 @@
 // user to jason.
-User class {
-  String name = "";
-  age = "";
-  height = "double"
-  return toJason('$String age height');
+class User {
+  String name;
+  int age;
+  double height;
+
+  User({required this.name, required this.age, required this.height});
+
+  Map toJson() {
+    return {
+      'name': name,
+      'age': age,
+      'height': height,
+    };
+  }
 }
