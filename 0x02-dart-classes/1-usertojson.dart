@@ -3,5 +3,5 @@ User class {
   String name = "";
   age = "";
   height = "double"
-  return toJason();
+  return toJason('$String age height');
 }
