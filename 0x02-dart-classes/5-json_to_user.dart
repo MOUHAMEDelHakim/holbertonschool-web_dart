@@ -22,7 +22,6 @@ class User {
     }
     @override
   String toString() {
-    // TODO: implement toString
-    return super.toString();
+    return "(id : id ,name: name, age: age, height: height)";
   }
   }
