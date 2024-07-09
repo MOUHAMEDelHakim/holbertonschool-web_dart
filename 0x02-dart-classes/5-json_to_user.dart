@@ -19,9 +19,20 @@ class User {
       'height': height,
       'id' : id,
     };
+  }
+    
+    static User fromJson(Map<dynamic, dynamic> userJson){
+    
+            return User(
+            id: userJson ['id'],
+            age: userJson ['age'],
+            name: userJson ['name'],
+            height: userJson['height'],
+                    );
     }
+    
     @override
   String toString() {
     return "(id : id ,name: name, age: age, height: height)";
   }
-  }
+ }
